@@ -28,3 +28,21 @@ text-indent:35px;
 
 }
 
+.parag_letras > p{
+    font-size: 1em;
+    text-align: center;
+
+}
+
+.botao{
+    width: 130px;
+    height: 50px;
+    background-color: black;   
+    
+}
+
+.botao p{
+    padding-top: 9px;   
+    color: #fff;
+}
+
