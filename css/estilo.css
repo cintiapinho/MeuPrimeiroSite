@@ -22,8 +22,8 @@ html{
 }
 
 .itens_menu a:hover{
-        padding: 0.8%;
-        background-color: rgba(9, 7, 6, 0.3);
+    padding: 0.8%;
+    background-color: rgba(9, 7, 6, 0.3);
 }
 
 .itens_menu a:active {
@@ -32,9 +32,12 @@ html{
 
 #veja_mais a:link, #veja_mais a:visited{
 
-    color: #FFDEAD;
+    color: #2F4F4F;
     font-size: 1.2em;
     
+}
+#veja_mais a:hover{
+    color: #FFDEAD ;
 }
 
 body{
@@ -103,14 +106,35 @@ line-height: 1.5;
 
 }
 
-.botao{
+.botao {
     width: 130px;
     height: 20px;
-    background-color: black;
+    background-color:  rgba(9, 7, 6, 0.3);
     padding: 1%;
     margin: auto;  
     margin-bottom: 2%; 
     margin-top: 2%;
+    
+}
+
+.botao a:link, .botao a:visited {
+    color:	#2F4F4F;
+    text-decoration:none;
+    font-weight: bolder;
+
+
+}
+
+.botao a:hover{
+    color: black;
+    font-weight: bold;
+
+}
+
+.botao:hover {  
+    background-color: #FFDEAD;
+    color: black;
+    
 }
 footer{
     background-color: rgba(9, 7, 6, 0.3);
