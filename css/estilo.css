@@ -4,29 +4,56 @@ html{
 }
 
 .menu{
-    background-color: rgba(105,89,205, 0.4);       
+    background-color: rgba(9, 7, 6, 0.3);       
     padding: 2%;
 }
 
 .itens_menu{
     text-align: center;
+    line-height: 1.5;
 }
+
+.itens_menu a:link, .itens_menu a:visited{
+
+    color: #FFDEAD;
+    font-weight: bolder;
+    font-size: 1.3em;
+    text-decoration: none;
+}
+
+.itens_menu a:hover{
+        padding: 0.8%;
+        background-color: rgba(9, 7, 6, 0.3);
+}
+
+.itens_menu a:active {
+    color: black;
+}
+
+#veja_mais a:link, #veja_mais a:visited{
+
+    color: #FFDEAD;
+    font-size: 1.2em;
+    
+}
+
 body{
-    background-color: #9370DB;
+    background-color: #DEB887;
 }
 
 figure{
 
     text-align: center;
-    margin-top: 1%;
-    margin-bottom: 1%;
+    
 
 }
 
 h1{
+    color: #8B4513;
     font-size: 2em;
     padding-top: 1%;
     padding-bottom: 1%;
+    font-weight: bold;
 }
 
 .img_topo{
@@ -36,11 +63,26 @@ h1{
 
 .img_corpo{
     width: 40%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .container{
     width: 80%;
     margin: auto;
+}
+
+.img_direito{
+    float: right;
+    width: 40%;
+    padding-left: 1%;
+}
+
+.img_esquerdo{
+    float: left;
+    width: 40%;
+    height: 37%;
+    padding-right: 1%;
 }
 
 h1{
@@ -49,7 +91,7 @@ h1{
 
 p{
 
-font-size: 1.5em;
+font-size: 1.3em;
 text-align: justify;
 text-indent:35px;
 line-height: 1.5;
@@ -71,9 +113,10 @@ line-height: 1.5;
     margin-top: 2%;
 }
 footer{
-    background-color: #483D8B;
+    background-color: rgba(9, 7, 6, 0.3);
     padding-top: 2%;
     padding-bottom: 2%;
+    margin-top: 4%;
 }
 footer p{    
     color: #fff;
@@ -83,5 +126,7 @@ footer p{
 .center{
     text-align: center;    
 }
+
+
 
 
