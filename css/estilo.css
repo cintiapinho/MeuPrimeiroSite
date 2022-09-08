@@ -3,12 +3,23 @@ html{
     scroll-behavior: smooth;
 }
 
-
-
-.menu{
-    background-color: rgba(9, 7, 6, 0.3);       
-    padding: 2%;
+body{
+    background-color: #DEB887;
 }
+
+header{
+    background-color: rgba(9, 7, 6);       
+    padding: 2%;   
+    
+}
+
+.fixo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
 
 .itens_menu{
     text-align: center;
@@ -42,24 +53,15 @@ html{
     color: #FFDEAD ;
 }
 
-body{
-    background-color: #DEB887;
-}
-
 figure{
 
-    text-align: center;
-    
+    text-align: center;   
 
 }
 
-h1{
-    color: #8B4513;
-    font-size: 2em;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    font-weight: bold;
-    font-family: 'Edu NSW ACT Foundation', cursive;
+
+.logo{
+    text-align: center;
 }
 
 .img_topo{
@@ -67,10 +69,19 @@ h1{
     
 }
 
+.img_logo{
+    width: 20%;
+}
+
 .img_corpo{
     width: 40%;
     margin-top: 1%;
     margin-bottom: 1%;
+}
+
+.banner{
+
+    margin-top: 20%;
 }
 
 .container{
@@ -92,6 +103,12 @@ h1{
 }
 
 h1{
+    color: #8B4513;
+    font-size: 2em;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-weight: bold;
+    font-family: 'Edu NSW ACT Foundation', cursive;
     text-align: center;
 }
 
