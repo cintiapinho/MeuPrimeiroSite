@@ -61,9 +61,7 @@ figure{
 }
 
 
-.logo{
-    text-align: center;
-}
+
 
 .img_topo{
     width: 100%;
@@ -80,10 +78,6 @@ figure{
     margin-bottom: 1%;
 }
 
-.banner{
-
-    margin-top: 20%;
-}
 
 .container{
     width: 80%;
@@ -284,16 +278,54 @@ label{
     .form{
         background-color: rgba(9, 7, 6, 0.6);
     }
+
+    .logo{
+        text-align: center;
+    }
+
+    .banner{
+        margin-top: 20%;
+    }
+    
    
     
   }
-
-  @media screen and (min-width: 800px) {
+/* Aplicar alterações quando a tela for maior que 800px */
+  @media screen and (min-width: 601px) {
 
     header{
         background-color: #DEB887;
         flex-direction: row;
     }
+
+    .itens_menu{
+        position: absolute;
+        right: 2%;
+        width: 70%;
+    }
+
+    .itens_menu ul li{
+        display: inline;
+        margin-left: 1%;
+
+    }
+
+    .logo{
+        text-align: left;
+        width: 30%;
+    }
+
+    .banner{
+
+        margin-top: 5%;
+    }
+
+    .img_logo{
+        width: 30%;
+    }
+    
+
+
     
   }
 
